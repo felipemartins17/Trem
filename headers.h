@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 typedef struct Vagao vagao;
-typedef  struct Pilha pilha;
+typedef struct Pilha pilha;
 typedef struct Fila fila;
 typedef struct Lista lista;
 
@@ -26,8 +26,8 @@ struct Fila
 
 struct Lista
 {
-int info;
-struct lista *prox;
+    int info;
+    struct lista *prox;
 };
 
 lista *cria_lista();
